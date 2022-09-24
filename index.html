@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bicarbonate Deficit Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="bicarbonatedeficitRadio" name="variables" checked>
+  <label for="bicarbonatedeficitRadio">Bicarbonate deficit</label>
+
+  <input type="radio" id="patientsweightRadio" name="variables">
+  <label for="patientsweightRadio">Patient's weight</label>
+
+  <input type="radio" id="actualbicarbonatelevelRadio" name="variables">
+  <label for="actualbicarbonatelevelRadio">Actual bicarbonate level</label>
+
+  <input type="radio" id="desiredbicarbonatelevelRadio" name="variables">
+  <label for="desiredbicarbonatelevelRadio">Desired bicarbonate level</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Patient's weight</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Actual bicarbonate level</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">Desired bicarbonate level</label>
+  <input type="number" id="v3"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
